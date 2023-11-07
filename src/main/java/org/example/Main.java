@@ -20,7 +20,7 @@ public class Main {
             Scanner input = new Scanner(System.in);
             option = input.nextInt();
             if(option == 5){
-                logger.info("End of execution");
+                logger.info("End of Execution");
                 System.exit(0);
             }
             System.out.println("Enter 1st operand: ");
