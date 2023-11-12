@@ -20,7 +20,7 @@ public class Main {
             System.out.println("3. Multiply");
             System.out.println("4. Percentile");
             System.out.println("5. Exit\n");
-            System.out.print("Enter your choice(number): \n");
+            System.out.print("Enter your option(number): \n");
             op = reader.nextInt();
             if(op==5) flag = 1;
             else{
