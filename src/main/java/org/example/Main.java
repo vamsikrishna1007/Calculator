@@ -55,7 +55,7 @@ public class Main {
 
 
                     case 4: // Percentile!
-                        System.out.println("Percentile two numbers!!\n");
+                        System.out.println("Percentile Two numbers!!\n");
                         System.out.print("Enter number1: \n");
                         num = reader.nextInt();
                         System.out.print("Enter number2: \n");
