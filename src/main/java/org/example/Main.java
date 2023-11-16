@@ -71,26 +71,33 @@ public class Main {
         }while(flag == 0);
     }
 
-    public static int add(int num,int exp){
-        int c=num+exp;
+    public static long add(long num,long exp){
+        long c=num+exp;
         System.out.println("\nThe Result is "+c+"\n");
         logger.info("Executing add operation for "+num+" and "+exp+". Result: "+c+"\n");
         return c;
     }
 
-    public static int subt(int num,int exp){
-        int c=num-exp;
+    public static long subt(long num,long exp){
+        long c=num-exp;
         System.out.println("\nThe Result     is "+c+"\n");
         logger.info("Executing subtraction operation for "+num+" and "+exp+". Result: "+c+"\n");
         return c;
     }
-    public static int mul(int num,int exp){
-        int c = num*exp;
+    public static long mul(long num,long exp){
+        long c = num*exp;
         System.out.println("\nThe Result is "+c+"\n");
         logger.info("Executing multiplication operation for "+num+" and "+exp+". Result: "+c+"\n");
         return c;
     }
     public static int per(int num, int exp){
+
+        if(exp==0)
+
+        {
+            System.out.println("Error");
+            return 0;
+        }
         int c = num%exp;
         System.out.println("\nThe Result is "+c+"\n");
         logger.info("Executing percentile/modulus operation for "+num+" and "+exp+". Result: "+c+"\n");

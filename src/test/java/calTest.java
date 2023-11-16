@@ -13,7 +13,7 @@ public class calTest {
         int a = 2;
         int aa = 2;
         int expectedResult = 4;
-        int result = uncalculator.add(a,aa);
+        long result = uncalculator.add(a,aa);
         Assert.assertEquals(expectedResult, result);
     }
 
@@ -22,7 +22,7 @@ public class calTest {
         int a = 2;
         int aa = 2;
         int expectedResult = 0;
-        int result = uncalculator.subt(a,aa);
+        long result = uncalculator.subt(a,aa);
         Assert.assertEquals(expectedResult, result);
     }
 
@@ -31,7 +31,7 @@ public class calTest {
         int a = 2;
         int aa = 2;
         int expectedResult = 4;
-        int result = uncalculator.mul(a,aa);
+        long result = uncalculator.mul(a,aa);
         Assert.assertEquals(expectedResult, result);
     }
 
@@ -40,7 +40,7 @@ public class calTest {
         int a = 2;
         int b = 5;
         int expectedResult = 2;
-        int result = uncalculator.per(a,b);
+        long result = uncalculator.per(a,b);
         Assert.assertEquals(expectedResult, result);
     }
 }
