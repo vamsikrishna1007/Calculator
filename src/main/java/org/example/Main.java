@@ -80,7 +80,7 @@ public class Main {
 
     public static int subt(int num,int exp){
         int c=num-exp;
-        System.out.println("\nThe Result is "+c+"\n");
+        System.out.println("\nThe Result     is "+c+"\n");
         logger.info("Executing subtraction operation for "+num+" and "+exp+". Result: "+c+"\n");
         return c;
     }
