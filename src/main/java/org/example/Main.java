@@ -93,9 +93,8 @@ public class Main {
     public static long per(long num, long exp){
 
         if(exp==0)
-
         {
-            System.out.println("Error");
+            System.out.println("Error exp can't be 0");
             return 0;
         }
         long c = num%exp;
