@@ -90,7 +90,7 @@ public class Main {
         logger.info("Executing multiplication operation for "+num+" and "+exp+". Result: "+c+"\n");
         return c;
     }
-    public static int per(int num, int exp){
+    public static long per(long num, long exp){
 
         if(exp==0)
 
@@ -98,7 +98,7 @@ public class Main {
             System.out.println("Error");
             return 0;
         }
-        int c = num%exp;
+        long c = num%exp;
         System.out.println("\nThe Result is "+c+"\n");
         logger.info("Executing percentile/modulus operation for "+num+" and "+exp+". Result: "+c+"\n");
         return c;
