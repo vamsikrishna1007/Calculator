@@ -1,1 +1,1 @@
-localhost ansible_user = local
+localhost ansible_connection=local ansible_user=slvk
